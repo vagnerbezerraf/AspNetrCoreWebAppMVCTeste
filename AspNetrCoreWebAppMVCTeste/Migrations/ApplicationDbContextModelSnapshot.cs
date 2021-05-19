@@ -17,59 +17,6 @@ namespace AspNetrCoreWebAppMVCTeste.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.6");
 
-            modelBuilder.Entity("AspNetrCoreWebAppMVCTeste.Models.Cadastro", b =>
-                {
-                    b.Property<int>("CadastroId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Bairro")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("CNPJ")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("CPF")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Cep")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Cidade")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Complemento")
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Logradouro")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Nome")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("NomeFantasia")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Numero")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("RazaoSocial")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Sobrenome")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("UF")
-                        .HasColumnType("longtext");
-
-                    b.HasKey("CadastroId");
-
-                    b.ToTable("Cadastro");
-                });
-
             modelBuilder.Entity("AspNetrCoreWebAppMVCTeste.Models.Domain.Endereco", b =>
                 {
                     b.Property<int>("EnderecoId")

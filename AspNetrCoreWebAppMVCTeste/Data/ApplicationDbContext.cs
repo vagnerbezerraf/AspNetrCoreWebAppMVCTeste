@@ -18,7 +18,6 @@ namespace AspNetrCoreWebAppMVCTeste.Data
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<PessoaFisica> PessoaFisica { get; set; }
         public DbSet<PessoaJuridica> PessoaJuridica { get; set; }
-        public DbSet<Cadastro> Cadastro { get; set; }
 
     }
 }
